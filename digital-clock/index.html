@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Digital Multi-zona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>⏰ Reloj Digital Multi-zona</h2>
+        <ul>
+            <li><a href="../index.html">Volver al Portfolio</a></li>
+        </ul>
+        <button id="modo">🌙</button>
+    </nav>
+
+    <div class="container">
+        <h1>Hora en Diferentes Ciudades</h1>
+        
+        <div class="clocks-grid">
+            <!-- Nueva York -->
+            <div class="clock-card">
+                <div class="city-name">🗽 Nueva York</div>
+                <div class="city-tz">America/New_York</div>
+                <div class="time" id="time-ny">--:--:--</div>
+                <div class="date" id="date-ny"></div>
+            </div>
+
+            <!-- Londres -->
+            <div class="clock-card">
+                <div class="city-name">🏴 Londres</div>
+                <div class="city-tz">Europe/London</div>
+                <div class="time" id="time-london">--:--:--</div>
+                <div class="date" id="date-london"></div>
+            </div>
+
+            <!-- París -->
+            <div class="clock-card">
+                <div class="city-name">🗼 París</div>
+                <div class="city-tz">Europe/Paris</div>
+                <div class="time" id="time-paris">--:--:--</div>
+                <div class="date" id="date-paris"></div>
+            </div>
+
+            <!-- Tokio -->
+            <div class="clock-card">
+                <div class="city-name">🗾 Tokio</div>
+                <div class="city-tz">Asia/Tokyo</div>
+                <div class="time" id="time-tokyo">--:--:--</div>
+                <div class="date" id="date-tokyo"></div>
+            </div>
+
+            <!-- Sídney -->
+            <div class="clock-card">
+                <div class="city-name">🦘 Sídney</div>
+                <div class="city-tz">Australia/Sydney</div>
+                <div class="time" id="time-sydney">--:--:--</div>
+                <div class="date" id="date-sydney"></div>
+            </div>
+
+            <!-- Dubái -->
+            <div class="clock-card">
+                <div class="city-name">🌴 Dubái</div>
+                <div class="city-tz">Asia/Dubai</div>
+                <div class="time" id="time-dubai">--:--:--</div>
+                <div class="date" id="date-dubai"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
